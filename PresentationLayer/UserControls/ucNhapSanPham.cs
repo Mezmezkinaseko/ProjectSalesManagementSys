@@ -8,10 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BusinessLogicLayer;
-using QuanLyCuaHangBanDoChoi.Forms;
+using PresentationLayer.Forms;
 using DTO;
 
-namespace QuanLyCuaHangBanDoChoi.UserControls
+namespace PresentationLayer.UserControls
 {
     public partial class ucNhapSanPham : UserControl
     {

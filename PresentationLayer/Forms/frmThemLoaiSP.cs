@@ -4,7 +4,7 @@ using DTO;
 using System;
 using System.Windows.Forms;
 
-namespace QuanLyCuaHangBanDoChoi.Forms
+namespace PresentationLayer.Forms
 {
     public partial class frmThemLoaiSP : Form
     {

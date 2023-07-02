@@ -4,7 +4,7 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace QuanLyCuaHangBanDoChoi.Forms
+namespace PresentationLayer.Forms
 {
     public partial class frmLoaiSanPham : Form
     {

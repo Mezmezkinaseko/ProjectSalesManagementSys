@@ -1,6 +1,6 @@
 ﻿using BusinessLogicLayer;
 using Microsoft.Reporting.WinForms;
-using QuanLyCuaHangBanDoChoi.UserControls;
+using PresentationLayer.UserControls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyCuaHangBanDoChoi.Forms
+namespace PresentationLayer.Forms
 {
     public partial class frmInHoaDon : Form
     {

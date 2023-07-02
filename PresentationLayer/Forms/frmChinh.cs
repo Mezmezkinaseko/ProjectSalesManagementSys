@@ -10,9 +10,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BusinessLogicLayer;
-using QuanLyCuaHangBanDoChoi.UserControls;
+using PresentationLayer.UserControls;
 
-namespace QuanLyCuaHangBanDoChoi.Forms
+namespace PresentationLayer.Forms
 {
     public partial class frmChinh : Form
     {

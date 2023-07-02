@@ -1,4 +1,4 @@
-﻿namespace QuanLyCuaHangBanDoChoi.UserControls
+﻿namespace PresentationLayer.UserControls
 {
     partial class ucTrangChu
     {
@@ -366,7 +366,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.box;
+            this.pictureBox1.Image = global::PresentationLayer.Properties.Resources.box;
             this.pictureBox1.Location = new System.Drawing.Point(364, 40);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
@@ -425,7 +425,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.dollar1;
+            this.pictureBox2.Image = global::PresentationLayer.Properties.Resources.dollar1;
             this.pictureBox2.Location = new System.Drawing.Point(370, 40);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
@@ -484,7 +484,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.customer_review;
+            this.pictureBox3.Image = global::PresentationLayer.Properties.Resources.customer_review;
             this.pictureBox3.Location = new System.Drawing.Point(372, 40);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";

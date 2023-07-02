@@ -4,12 +4,10 @@ using System.Drawing;
 using System.Windows.Forms;
 using Tulpep.NotificationWindow;
 
-namespace QuanLyCuaHangBanDoChoi.Forms
+namespace PresentationLayer.Forms
 {
     public partial class frmDangNhap : Form
     {
-
-
         public frmDangNhap()
         {
             InitializeComponent();
@@ -27,20 +25,17 @@ namespace QuanLyCuaHangBanDoChoi.Forms
         {
             txtMatKhau.PasswordChar = '●';
 
-            txtTenDangNhap.Visible = false;
-            txtMatKhau.Visible = false;
-            btnShowPass.Visible = false;
+            txtTenDangNhap.Visible = true;
+            txtMatKhau.Visible = true;
+            btnShowPass.Visible = true;
 
-            timer1.Start();
-            timer2.Start();
+            //timer1.Start();
+            //timer2.Start();
 
-            lbDangNhap.ForeColor = Color.FromArgb(240, 240, 240);
-            lbMatKhau.ForeColor = Color.FromArgb(240, 240, 240);
+            //lbDangNhap.ForeColor = Color.FromArgb(240, 240, 240);
+            //lbMatKhau.ForeColor = Color.FromArgb(240, 240, 240);
         }
-        private void btnDangNhap_Click(object sender, EventArgs e)
-        {
-            XuLyDangNhap();
-        }
+     
         public void Alert(string msg, frmPopupNotification.enmType type)
         {
             frmPopupNotification frm = new frmPopupNotification();
@@ -52,7 +47,7 @@ namespace QuanLyCuaHangBanDoChoi.Forms
             Cursor = Cursors.AppStarting;
             if (TaiKhoanBL.GetInstance.CheckLogin(txtTenDangNhap.Text, txtMatKhau.Text) == true)
             {
-                btnDangNhap.BackColor = Color.FromArgb(0, 100, 0);
+               // btnDangNhap.BackColor = Color.FromArgb(0, 100, 0);
                 TenDangNhap = int.Parse(txtTenDangNhap.Text);
                 Quyen = TaiKhoanBL.GetInstance.GetMaQuyen(int.Parse(txtTenDangNhap.Text));
                 txtMatKhau.Text = "";
@@ -90,14 +85,14 @@ namespace QuanLyCuaHangBanDoChoi.Forms
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (txtTenDangNhap.Top <= 345)
+            if (txtTenDangNhap.Top <= 45)
             {
                 txtTenDangNhap.Top += 1;
-                pnlTenDangNhap.Top += 1;
+               
                 btnShowPass.Top += 1;
 
                 txtMatKhau.Top += 1;
-                pnlMatKhau.Top += 1;
+               
             }
             else
                 timer1.Stop();
@@ -108,9 +103,9 @@ namespace QuanLyCuaHangBanDoChoi.Forms
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            lbDangNhapLOGO.ForeColor = Color.FromArgb(R1, G1, B1);
-            lbDangNhap.ForeColor = Color.FromArgb(R1, G1, B1);
-            lbMatKhau.ForeColor = Color.FromArgb(R1, G1, B1);
+            //lbDangNhapLOGO.ForeColor = Color.FromArgb(R1, G1, B1);
+            //lbDangNhap.ForeColor = Color.FromArgb(R1, G1, B1);
+            //lbMatKhau.ForeColor = Color.FromArgb(R1, G1, B1);
             if (R1 > 17)
                 R1 -= 1;
             if (G1 < 145)
@@ -127,58 +122,51 @@ namespace QuanLyCuaHangBanDoChoi.Forms
             }
         }
 
-        private void btnShowPass_Click(object sender, EventArgs e)
+        private void btnDangNhap_Click_1(object sender, EventArgs e)
         {
-            if (btnShowPass.ImageIndex == 0)
-            {
-                btnShowPass.ImageIndex = 1;
-                txtMatKhau.Focus();
-            }
-            else
-            {
-                btnShowPass.ImageIndex = 0;
-                txtMatKhau.Focus();
-            }
-            if (txtMatKhau.PasswordChar == '●')
-            {
-                txtMatKhau.PasswordChar = '\0';
-            }
-            else
-            {
-                txtMatKhau.PasswordChar = '●';
-            }
+            XuLyDangNhap();
         }
 
-        private void btnShowPass_MouseHover(object sender, EventArgs e)
+        private void txtTenDangNhap_TextChanged_2(object sender, EventArgs e)
         {
-            if (btnShowPass.ImageIndex == 0)
-                toolTip1.Show("Hiện mật khẩu", btnShowPass);
-            else
-                toolTip1.Show("Ẩn mật khẩu", btnShowPass);
+
         }
 
-        private void txtMatKhau_TextChanged(object sender, EventArgs e)
+        private void txtMatKhau_TextChanged_1(object sender, EventArgs e)
         {
             if (txtTenDangNhap.Text != "" && txtMatKhau.Text != "")
             {
-                btnDangNhap.BackColor = Color.FromArgb(0, 122, 204);
+               // btnDangNhap.BackColor = Color.FromArgb(0, 122, 204);
             }
             else
             {
-                btnDangNhap.BackColor = Color.DimGray;
+               // btnDangNhap.BackColor = Color.DimGray;
             }
         }
 
-        private void txtTenDangNhap_TextChanged(object sender, EventArgs e)
+        private void btnDangNhap_Click_2(object sender, EventArgs e)
         {
-            if (txtTenDangNhap.Text != "" && txtMatKhau.Text != "")
+            XuLyDangNhap();
+        }
+
+        private void ckHienThiMK_CheckedChanged(object sender, EventArgs e)
+        {
+            // Nếu checkbox được chọn, hiển thị mật khẩu
+            // Nếu checkbox được chọn, hiển thị mật khẩu
+            if (ckHienThiMK.Checked)
             {
-                btnDangNhap.BackColor = Color.FromArgb(0, 122, 204);
+                txtMatKhau.PasswordChar = '\0'; // Hiển thị mật khẩu dưới dạng văn bản thông thường
             }
             else
             {
-                btnDangNhap.BackColor = Color.DimGray;
+                txtMatKhau.PasswordChar = '●'; // Hiển thị mật khẩu dưới dạng ký tự ●
             }
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            txtTenDangNhap.Text = string.Empty; // Xóa chữ trong txtUsername
+            txtMatKhau.Text = string.Empty; // Xóa chữ trong txtPassword
         }
     }
 }

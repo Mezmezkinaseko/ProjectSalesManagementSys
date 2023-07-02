@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using DTO;
 
-namespace QuanLyCuaHangBanDoChoi.UserControls
+namespace PresentationLayer.UserControls
 {
     public partial class ucSanPham : UserControl
     {

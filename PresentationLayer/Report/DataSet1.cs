@@ -1,4 +1,4 @@
-﻿namespace QuanLyCuaHangBanDoChoi.Report
+﻿namespace PresentationLayer.Report
 {
 
 

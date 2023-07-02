@@ -1,4 +1,4 @@
-﻿namespace QuanLyCuaHangBanDoChoi.Forms
+﻿namespace PresentationLayer.Forms
 {
     partial class frmLoadImage
     {
@@ -156,7 +156,7 @@
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_close_window_32px_1;
+            this.button9.Image = global::PresentationLayer.Properties.Resources.icons8_close_window_32px_1;
             this.button9.Location = new System.Drawing.Point(570, 0);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(33, 31);

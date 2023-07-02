@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BusinessLogicLayer;
 using DTO;
-using QuanLyCuaHangBanDoChoi.Forms;
+using PresentationLayer.Forms;
 using System.Text.RegularExpressions;
 
-namespace QuanLyCuaHangBanDoChoi.UserControls
+namespace PresentationLayer.UserControls
 {
     public partial class ucKhachHang : UserControl
     {
