@@ -168,6 +168,11 @@ namespace PresentationLayer.Forms
             txtTenDangNhap.Text = string.Empty; // Xóa chữ trong txtUsername
             txtMatKhau.Text = string.Empty; // Xóa chữ trong txtPassword
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
 

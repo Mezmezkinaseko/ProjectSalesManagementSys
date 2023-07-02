@@ -750,5 +750,11 @@
   <ItemGroup>
     <None Include="Resources\logoTGDD.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newitems-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle_blue.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
