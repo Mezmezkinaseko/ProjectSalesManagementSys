@@ -27,7 +27,7 @@ namespace PresentationLayer.Forms
 
             txtTenDangNhap.Visible = true;
             txtMatKhau.Visible = true;
-            btnShowPass.Visible = true;
+           
 
             //timer1.Start();
             //timer2.Start();
@@ -89,7 +89,7 @@ namespace PresentationLayer.Forms
             {
                 txtTenDangNhap.Top += 1;
                
-                btnShowPass.Top += 1;
+               
 
                 txtMatKhau.Top += 1;
                
@@ -116,7 +116,7 @@ namespace PresentationLayer.Forms
             {
                 txtTenDangNhap.Visible = true;
                 txtMatKhau.Visible = true;
-                btnShowPass.Visible = true;
+               
                 txtTenDangNhap.Focus();
                 timer2.Stop();
             }

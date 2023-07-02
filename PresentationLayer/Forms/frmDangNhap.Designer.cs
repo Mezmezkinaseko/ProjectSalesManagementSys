@@ -52,9 +52,8 @@
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
             this.txtTenDangNhap = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnShowPass = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
@@ -63,7 +62,6 @@
             this.guna2Panel4.SuspendLayout();
             this.guna2Panel9.SuspendLayout();
             this.guna2Panel8.SuspendLayout();
-            this.guna2Panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -156,9 +154,9 @@
             this.guna2Panel2.Controls.Add(this.btnDangNhap);
             this.guna2Panel2.Controls.Add(this.guna2Panel9);
             this.guna2Panel2.Controls.Add(this.guna2Panel8);
-            this.guna2Panel2.Location = new System.Drawing.Point(582, 3);
+            this.guna2Panel2.Location = new System.Drawing.Point(609, 3);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(812, 610);
+            this.guna2Panel2.Size = new System.Drawing.Size(785, 610);
             this.guna2Panel2.TabIndex = 4;
             // 
             // guna2Panel3
@@ -209,10 +207,10 @@
             // 
             this.ckHienThiMK.AutoSize = true;
             this.ckHienThiMK.BackColor = System.Drawing.Color.Transparent;
-            this.ckHienThiMK.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.ckHienThiMK.CheckedState.BorderColor = System.Drawing.Color.Navy;
             this.ckHienThiMK.CheckedState.BorderRadius = 0;
             this.ckHienThiMK.CheckedState.BorderThickness = 0;
-            this.ckHienThiMK.CheckedState.FillColor = System.Drawing.Color.Green;
+            this.ckHienThiMK.CheckedState.FillColor = System.Drawing.Color.Teal;
             this.ckHienThiMK.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ckHienThiMK.Location = new System.Drawing.Point(188, 364);
             this.ckHienThiMK.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -359,40 +357,13 @@
             // 
             // guna2Panel7
             // 
-            this.guna2Panel7.BackgroundImage = global::PresentationLayer.Properties.Resources.banner_lg_removebg;
+            this.guna2Panel7.BackgroundImage = global::PresentationLayer.Properties.Resources.OIP__1_;
             this.guna2Panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2Panel7.Controls.Add(this.btnShowPass);
-            this.guna2Panel7.Location = new System.Drawing.Point(76, 27);
+            this.guna2Panel7.Location = new System.Drawing.Point(52, 49);
             this.guna2Panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel7.Name = "guna2Panel7";
-            this.guna2Panel7.Size = new System.Drawing.Size(500, 482);
+            this.guna2Panel7.Size = new System.Drawing.Size(499, 427);
             this.guna2Panel7.TabIndex = 3;
-            // 
-            // btnShowPass
-            // 
-            this.btnShowPass.BackColor = System.Drawing.Color.White;
-            this.btnShowPass.FlatAppearance.BorderColor = System.Drawing.Color.DarkGreen;
-            this.btnShowPass.FlatAppearance.BorderSize = 0;
-            this.btnShowPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnShowPass.ImageIndex = 0;
-            this.btnShowPass.ImageList = this.imageList1;
-            this.btnShowPass.Location = new System.Drawing.Point(508, 236);
-            this.btnShowPass.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnShowPass.Name = "btnShowPass";
-            this.btnShowPass.Size = new System.Drawing.Size(40, 38);
-            this.btnShowPass.TabIndex = 11;
-            this.btnShowPass.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(27, 6);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(88, 78);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
             // 
             // button2
             // 
@@ -411,6 +382,17 @@
             this.button2.TabIndex = 22;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(27, 6);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(88, 78);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
             // 
             // frmDangNhap
             // 
@@ -436,7 +418,6 @@
             this.guna2Panel4.ResumeLayout(false);
             this.guna2Panel9.ResumeLayout(false);
             this.guna2Panel8.ResumeLayout(false);
-            this.guna2Panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -451,7 +432,6 @@
         private System.Windows.Forms.ToolTip toolTip1;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
-        private System.Windows.Forms.Button btnShowPass;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
