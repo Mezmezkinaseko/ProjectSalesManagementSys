@@ -1,4 +1,4 @@
-﻿namespace QuanLyCuaHangBanDoChoi.UserControls
+﻿namespace PresentationLayer.UserControls
 {
     partial class ucNhanVien
     {
@@ -156,7 +156,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_search_24px;
+            this.pictureBox2.Image = global::PresentationLayer.Properties.Resources.icons8_search_24px;
             this.pictureBox2.Location = new System.Drawing.Point(208, 3);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(27, 22);
@@ -205,7 +205,7 @@
             this.btnLamMoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLamMoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLamMoi.ForeColor = System.Drawing.Color.White;
-            this.btnLamMoi.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_clean_32px;
+            this.btnLamMoi.Image = global::PresentationLayer.Properties.Resources.icons8_clean_32px;
             this.btnLamMoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLamMoi.Location = new System.Drawing.Point(143, 67);
             this.btnLamMoi.Name = "btnLamMoi";
@@ -223,7 +223,7 @@
             this.btnApDung.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnApDung.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApDung.ForeColor = System.Drawing.Color.White;
-            this.btnApDung.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_ok_32px;
+            this.btnApDung.Image = global::PresentationLayer.Properties.Resources.icons8_ok_32px;
             this.btnApDung.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnApDung.Location = new System.Drawing.Point(18, 67);
             this.btnApDung.Name = "btnApDung";
@@ -415,7 +415,7 @@
             this.btnLamMoiThongTin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLamMoiThongTin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLamMoiThongTin.ForeColor = System.Drawing.Color.White;
-            this.btnLamMoiThongTin.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_clean_32px;
+            this.btnLamMoiThongTin.Image = global::PresentationLayer.Properties.Resources.icons8_clean_32px;
             this.btnLamMoiThongTin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLamMoiThongTin.Location = new System.Drawing.Point(59, 355);
             this.btnLamMoiThongTin.Name = "btnLamMoiThongTin";
@@ -433,7 +433,7 @@
             this.btnSaThai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSaThai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSaThai.ForeColor = System.Drawing.Color.White;
-            this.btnSaThai.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_no_access_32px;
+            this.btnSaThai.Image = global::PresentationLayer.Properties.Resources.icons8_no_access_32px;
             this.btnSaThai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSaThai.Location = new System.Drawing.Point(184, 355);
             this.btnSaThai.Name = "btnSaThai";
@@ -451,7 +451,7 @@
             this.btnCapNhat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCapNhat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCapNhat.ForeColor = System.Drawing.Color.White;
-            this.btnCapNhat.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_ok_32px;
+            this.btnCapNhat.Image = global::PresentationLayer.Properties.Resources.icons8_ok_32px;
             this.btnCapNhat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCapNhat.Location = new System.Drawing.Point(293, 355);
             this.btnCapNhat.Name = "btnCapNhat";
@@ -470,7 +470,7 @@
             this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.Color.White;
-            this.btnThem.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_add_32px_1;
+            this.btnThem.Image = global::PresentationLayer.Properties.Resources.icons8_add_32px_1;
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThem.Location = new System.Drawing.Point(421, 355);
             this.btnThem.Name = "btnThem";

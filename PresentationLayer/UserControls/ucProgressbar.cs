@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyCuaHangBanDoChoi.UserControls
+namespace PresentationLayer.UserControls
 {
     public partial class ucProgressbar : UserControl
     {

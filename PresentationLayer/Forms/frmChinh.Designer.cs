@@ -1,4 +1,4 @@
-﻿namespace QuanLyCuaHangBanDoChoi.Forms
+﻿namespace PresentationLayer.Forms
 {
     partial class frmChinh
     {
@@ -91,7 +91,7 @@
             this.btnNhapSanPham.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNhapSanPham.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhapSanPham.ForeColor = System.Drawing.Color.White;
-            this.btnNhapSanPham.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_warehouse_40px;
+            this.btnNhapSanPham.Image = global::PresentationLayer.Properties.Resources.icons8_warehouse_40px;
             this.btnNhapSanPham.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNhapSanPham.Location = new System.Drawing.Point(9, 329);
             this.btnNhapSanPham.Name = "btnNhapSanPham";
@@ -111,7 +111,7 @@
             this.btnThietLap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThietLap.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThietLap.ForeColor = System.Drawing.Color.White;
-            this.btnThietLap.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_settings_40px;
+            this.btnThietLap.Image = global::PresentationLayer.Properties.Resources.icons8_settings_40px;
             this.btnThietLap.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThietLap.Location = new System.Drawing.Point(9, 518);
             this.btnThietLap.Name = "btnThietLap";
@@ -131,7 +131,7 @@
             this.btnKhachHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKhachHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKhachHang.ForeColor = System.Drawing.Color.White;
-            this.btnKhachHang.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_customer_40px;
+            this.btnKhachHang.Image = global::PresentationLayer.Properties.Resources.icons8_customer_40px;
             this.btnKhachHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnKhachHang.Location = new System.Drawing.Point(9, 455);
             this.btnKhachHang.Name = "btnKhachHang";
@@ -151,7 +151,7 @@
             this.btnNhanVien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhanVien.ForeColor = System.Drawing.Color.White;
-            this.btnNhanVien.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_leadership_40px;
+            this.btnNhanVien.Image = global::PresentationLayer.Properties.Resources.icons8_leadership_40px;
             this.btnNhanVien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNhanVien.Location = new System.Drawing.Point(9, 392);
             this.btnNhanVien.Name = "btnNhanVien";
@@ -191,7 +191,7 @@
             this.btnBanSanPham.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBanSanPham.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBanSanPham.ForeColor = System.Drawing.Color.White;
-            this.btnBanSanPham.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_bill_40px_1;
+            this.btnBanSanPham.Image = global::PresentationLayer.Properties.Resources.icons8_bill_40px_1;
             this.btnBanSanPham.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBanSanPham.Location = new System.Drawing.Point(9, 203);
             this.btnBanSanPham.Name = "btnBanSanPham";
@@ -255,7 +255,7 @@
             // button8
             // 
             this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button8.BackgroundImage = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_Show_Left_Side_Panel_32px;
+            this.button8.BackgroundImage = global::PresentationLayer.Properties.Resources.icons8_Show_Left_Side_Panel_32px;
             this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
@@ -291,7 +291,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_minimize_window_32px_1;
+            this.button1.Image = global::PresentationLayer.Properties.Resources.icons8_minimize_window_32px_1;
             this.button1.Location = new System.Drawing.Point(893, 0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(45, 46);
@@ -319,7 +319,7 @@
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_close_window_32px;
+            this.button9.Image = global::PresentationLayer.Properties.Resources.icons8_close_window_32px;
             this.button9.Location = new System.Drawing.Point(938, 0);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(45, 46);

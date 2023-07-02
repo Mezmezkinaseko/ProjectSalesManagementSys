@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyCuaHangBanDoChoi.Forms
+namespace PresentationLayer.Forms
 {
     public partial class frmThongBao : Form
     {

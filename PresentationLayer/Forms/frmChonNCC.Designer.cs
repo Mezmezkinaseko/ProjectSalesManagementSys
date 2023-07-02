@@ -1,4 +1,4 @@
-﻿namespace QuanLyCuaHangBanDoChoi.Forms
+﻿namespace PresentationLayer.Forms
 {
     partial class frmChonNCC
     {
@@ -42,7 +42,7 @@
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_close_window_32px;
+            this.button9.Image = global::PresentationLayer.Properties.Resources.icons8_close_window_32px;
             this.button9.Location = new System.Drawing.Point(446, 1);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(32, 33);
@@ -59,7 +59,7 @@
             this.btnChon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChon.ForeColor = System.Drawing.Color.White;
-            this.btnChon.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_ok_32px;
+            this.btnChon.Image = global::PresentationLayer.Properties.Resources.icons8_ok_32px;
             this.btnChon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnChon.Location = new System.Drawing.Point(372, 110);
             this.btnChon.Name = "btnChon";
@@ -78,7 +78,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_add_32px;
+            this.button1.Image = global::PresentationLayer.Properties.Resources.icons8_add_32px;
             this.button1.Location = new System.Drawing.Point(321, 44);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(37, 31);

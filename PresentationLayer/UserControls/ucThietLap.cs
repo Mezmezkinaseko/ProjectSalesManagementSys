@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BusinessLogicLayer;
-using QuanLyCuaHangBanDoChoi.Forms;
+using PresentationLayer.Forms;
 
-namespace QuanLyCuaHangBanDoChoi.UserControls
+namespace PresentationLayer.UserControls
 {
     public partial class ucThietLap : UserControl
     {

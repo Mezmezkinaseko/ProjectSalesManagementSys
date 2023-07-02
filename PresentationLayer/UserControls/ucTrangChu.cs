@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using BusinessLogicLayer;
 using DTO;
 
-namespace QuanLyCuaHangBanDoChoi.UserControls
+namespace PresentationLayer.UserControls
 {
     public partial class ucTrangChu : UserControl
     {

@@ -1,4 +1,4 @@
-﻿namespace QuanLyCuaHangBanDoChoi.Forms
+﻿namespace PresentationLayer.Forms
 {
     partial class frmPopupNotification
     {

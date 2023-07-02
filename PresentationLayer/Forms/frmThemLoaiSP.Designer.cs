@@ -1,4 +1,4 @@
-﻿namespace QuanLyCuaHangBanDoChoi.Forms
+﻿namespace PresentationLayer.Forms
 {
     partial class frmThemLoaiSP
     {
@@ -41,7 +41,7 @@
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_close_window_32px;
+            this.button9.Image = global::PresentationLayer.Properties.Resources.icons8_close_window_32px;
             this.button9.Location = new System.Drawing.Point(668, -2);
             this.button9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button9.Name = "button9";
@@ -59,7 +59,7 @@
             this.btnThemSP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThemSP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemSP.ForeColor = System.Drawing.Color.White;
-            this.btnThemSP.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_add_32px_1;
+            this.btnThemSP.Image = global::PresentationLayer.Properties.Resources.icons8_add_32px_1;
             this.btnThemSP.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThemSP.Location = new System.Drawing.Point(430, 152);
             this.btnThemSP.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);

@@ -1,4 +1,4 @@
-﻿namespace QuanLyCuaHangBanDoChoi.UserControls
+﻿namespace PresentationLayer.UserControls
 {
     partial class ucBanSanPham
     {
@@ -120,7 +120,7 @@
             this.btnLamMoi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLamMoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLamMoi.ForeColor = System.Drawing.Color.White;
-            this.btnLamMoi.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_clean_32px;
+            this.btnLamMoi.Image = global::PresentationLayer.Properties.Resources.icons8_clean_32px;
             this.btnLamMoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLamMoi.Location = new System.Drawing.Point(141, 67);
             this.btnLamMoi.Name = "btnLamMoi";
@@ -139,7 +139,7 @@
             this.btnApDung.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnApDung.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApDung.ForeColor = System.Drawing.Color.White;
-            this.btnApDung.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_ok_32px;
+            this.btnApDung.Image = global::PresentationLayer.Properties.Resources.icons8_ok_32px;
             this.btnApDung.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnApDung.Location = new System.Drawing.Point(18, 67);
             this.btnApDung.Name = "btnApDung";
@@ -254,7 +254,7 @@
             this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNext.ForeColor = System.Drawing.Color.White;
-            this.btnNext.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_next_32px_5;
+            this.btnNext.Image = global::PresentationLayer.Properties.Resources.icons8_next_32px_5;
             this.btnNext.Location = new System.Drawing.Point(79, 11);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(30, 26);
@@ -283,7 +283,7 @@
             this.btnPre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPre.ForeColor = System.Drawing.Color.White;
-            this.btnPre.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_previous_32px_1;
+            this.btnPre.Image = global::PresentationLayer.Properties.Resources.icons8_previous_32px_1;
             this.btnPre.Location = new System.Drawing.Point(12, 11);
             this.btnPre.Name = "btnPre";
             this.btnPre.Size = new System.Drawing.Size(27, 26);
@@ -432,7 +432,7 @@
             this.btnThanhToan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThanhToan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThanhToan.ForeColor = System.Drawing.Color.White;
-            this.btnThanhToan.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_pay_32px;
+            this.btnThanhToan.Image = global::PresentationLayer.Properties.Resources.icons8_pay_32px;
             this.btnThanhToan.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.btnThanhToan.Location = new System.Drawing.Point(58, 342);
             this.btnThanhToan.Name = "btnThanhToan";
@@ -641,7 +641,7 @@
             // 
             // picThanhCong
             // 
-            this.picThanhCong.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.success;
+            this.picThanhCong.Image = global::PresentationLayer.Properties.Resources.success;
             this.picThanhCong.Location = new System.Drawing.Point(384, 49);
             this.picThanhCong.Name = "picThanhCong";
             this.picThanhCong.Size = new System.Drawing.Size(41, 38);
@@ -809,7 +809,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::QuanLyCuaHangBanDoChoi.Properties.Resources.icons8_search_24px;
+            this.pictureBox1.Image = global::PresentationLayer.Properties.Resources.icons8_search_24px;
             this.pictureBox1.Location = new System.Drawing.Point(205, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(27, 22);

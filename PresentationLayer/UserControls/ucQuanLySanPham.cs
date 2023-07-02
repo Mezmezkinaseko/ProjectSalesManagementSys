@@ -4,11 +4,11 @@ using System.Data;
 using System.Windows.Forms;
 using System.IO;
 using BusinessLogicLayer;
-using QuanLyCuaHangBanDoChoi.Forms;
+using PresentationLayer.Forms;
 using DTO;
 using System.Xml;
 
-namespace QuanLyCuaHangBanDoChoi.UserControls
+namespace PresentationLayer.UserControls
 {
     public partial class ucQuanLySanPham : UserControl
     {

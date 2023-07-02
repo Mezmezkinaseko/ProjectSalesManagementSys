@@ -5,12 +5,12 @@ using System.Windows.Forms;
 using System.IO;
 using BusinessLogicLayer;
 using DTO;
-using QuanLyCuaHangBanDoChoi.Forms;
+using PresentationLayer.Forms;
 using System.Net.Mail;
 using System.Net;
 using System.Collections.Generic;
 
-namespace QuanLyCuaHangBanDoChoi.UserControls
+namespace PresentationLayer.UserControls
 {
     public partial class ucBanSanPham : UserControl
     {
