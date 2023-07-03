@@ -63,6 +63,16 @@ namespace PresentationLayer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1proof_11_1024x789 {
+            get {
+                object obj = ResourceManager.GetObject("1proof-11-1024x789", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap banhang_black {
             get {
                 object obj = ResourceManager.GetObject("banhang_black", resourceCulture);
@@ -146,6 +156,16 @@ namespace PresentationLayer.Properties {
         internal static System.Drawing.Bitmap check__1_ {
             get {
                 object obj = ResourceManager.GetObject("check__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap circle_blue {
+            get {
+                object obj = ResourceManager.GetObject("circle_blue", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -246,6 +266,16 @@ namespace PresentationLayer.Properties {
         internal static System.Drawing.Bitmap error_icon_33 {
             get {
                 object obj = ResourceManager.GetObject("error-icon-33", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap home_side {
+            get {
+                object obj = ResourceManager.GetObject("home-side", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -933,6 +963,16 @@ namespace PresentationLayer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap newitems_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("newitems-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap nhanvien_black {
             get {
                 object obj = ResourceManager.GetObject("nhanvien_black", resourceCulture);
@@ -946,6 +986,26 @@ namespace PresentationLayer.Properties {
         internal static System.Drawing.Bitmap nhanvien_blue {
             get {
                 object obj = ResourceManager.GetObject("nhanvien_blue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OIP__1_ {
+            get {
+                object obj = ResourceManager.GetObject("OIP (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OIP_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("OIP-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

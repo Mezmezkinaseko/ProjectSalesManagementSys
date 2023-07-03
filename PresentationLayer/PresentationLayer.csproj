@@ -750,5 +750,23 @@
   <ItemGroup>
     <None Include="Resources\logoTGDD.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newitems-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1proof-11-1024x789.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %281%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

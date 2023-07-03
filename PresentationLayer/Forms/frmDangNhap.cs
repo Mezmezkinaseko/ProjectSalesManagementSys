@@ -27,7 +27,7 @@ namespace PresentationLayer.Forms
 
             txtTenDangNhap.Visible = true;
             txtMatKhau.Visible = true;
-            btnShowPass.Visible = true;
+           
 
             //timer1.Start();
             //timer2.Start();
@@ -89,7 +89,7 @@ namespace PresentationLayer.Forms
             {
                 txtTenDangNhap.Top += 1;
                
-                btnShowPass.Top += 1;
+               
 
                 txtMatKhau.Top += 1;
                
@@ -116,7 +116,7 @@ namespace PresentationLayer.Forms
             {
                 txtTenDangNhap.Visible = true;
                 txtMatKhau.Visible = true;
-                btnShowPass.Visible = true;
+               
                 txtTenDangNhap.Focus();
                 timer2.Stop();
             }
@@ -167,6 +167,11 @@ namespace PresentationLayer.Forms
         {
             txtTenDangNhap.Text = string.Empty; // Xóa chữ trong txtUsername
             txtMatKhau.Text = string.Empty; // Xóa chữ trong txtPassword
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
