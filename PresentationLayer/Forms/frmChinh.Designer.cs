@@ -475,6 +475,7 @@
             this.Name = "frmChinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmChinh";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmChinh_Load);
             this.panelLeft.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
