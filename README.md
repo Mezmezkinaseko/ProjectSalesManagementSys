@@ -7,4 +7,4 @@
 #####  * Staff: 
       username: 6 
       password: admin
-
+Hạn chế: hiện tại phần mềm thiếu chức năng report
