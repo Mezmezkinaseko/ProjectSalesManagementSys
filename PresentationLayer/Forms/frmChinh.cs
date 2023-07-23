@@ -429,7 +429,7 @@ namespace PresentationLayer.Forms
 
         private void itemGioiThieu_Click(object sender, EventArgs e)
         {
-            Process.Start("E:\\0.LẬP TRÌNH C#\\0.ĐỒ ÁN C#\\DOANCHINH\\ProjectSalesManagementSys\\PresentationLayer\\Gioithieu.txt");
+            Process.Start("https://github.com/Mezmezkinaseko/ProjectSalesManagementSys/blob/master/README.md");
         }
     }
 }
