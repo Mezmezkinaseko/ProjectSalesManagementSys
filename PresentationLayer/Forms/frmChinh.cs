@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -414,6 +415,21 @@ namespace PresentationLayer.Forms
                 btnNhapSanPham.FlatAppearance.MouseDownBackColor = Color.White;
             }
             Cursor = Cursors.Default;
+        }
+
+        private void btnHuongDan_Click(object sender, EventArgs e)
+        {
+            this.menuHuongDan.Show(panelLeft, new Point(212, 580));
+        }
+
+        private void itemHuongDan_Click(object sender, EventArgs e)
+        {
+            Process.Start("E:\\0.LẬP TRÌNH C#\\0.ĐỒ ÁN C#\\DOANCHINH\\ProjectSalesManagementSys\\PresentationLayer\\Huongdan.txt");
+        }
+
+        private void itemGioiThieu_Click(object sender, EventArgs e)
+        {
+            Process.Start("E:\\0.LẬP TRÌNH C#\\0.ĐỒ ÁN C#\\DOANCHINH\\ProjectSalesManagementSys\\PresentationLayer\\Gioithieu.txt");
         }
     }
 }
