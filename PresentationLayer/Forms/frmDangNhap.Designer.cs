@@ -31,8 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDangNhap));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
@@ -54,8 +52,9 @@
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
             this.txtTenDangNhap = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
@@ -63,11 +62,12 @@
             this.guna2Panel4.SuspendLayout();
             this.guna2Panel9.SuspendLayout();
             this.guna2Panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(133)))), ((int)(((byte)(204)))));
+            this.panel1.BackColor = System.Drawing.Color.RoyalBlue;
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label4);
@@ -77,35 +77,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1351, 88);
             this.panel1.TabIndex = 10;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(133)))), ((int)(((byte)(204)))));
-            this.button2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(1259, 0);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(92, 88);
-            this.button2.TabIndex = 22;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(27, 6);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(88, 78);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
             // 
             // label4
             // 
@@ -394,6 +365,35 @@
             this.guna2Panel7.Size = new System.Drawing.Size(499, 427);
             this.guna2Panel7.TabIndex = 3;
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(133)))), ((int)(((byte)(204)))));
+            this.button2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.Location = new System.Drawing.Point(1259, 0);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(92, 88);
+            this.button2.TabIndex = 22;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(27, 6);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(88, 78);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -410,7 +410,6 @@
             this.Load += new System.EventHandler(this.frmDangNhap_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
@@ -419,6 +418,7 @@
             this.guna2Panel4.ResumeLayout(false);
             this.guna2Panel9.ResumeLayout(false);
             this.guna2Panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
