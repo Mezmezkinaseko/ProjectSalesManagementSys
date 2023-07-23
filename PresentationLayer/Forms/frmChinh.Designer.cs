@@ -325,6 +325,7 @@
             this.btnHuongDan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnHuongDan.UseVisualStyleBackColor = false;
             this.btnHuongDan.Click += new System.EventHandler(this.btnHuongDan_Click);
+            this.btnHuongDan.MouseHover += new System.EventHandler(this.btnHuongDan_MouseHover);
             // 
             // btnNhapSanPham
             // 
@@ -505,9 +506,9 @@
             // 
             // itemHuongDan
             // 
-            this.itemHuongDan.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.itemHuongDan.BackColor = System.Drawing.Color.Blue;
             this.itemHuongDan.Font = new System.Drawing.Font("Segoe UI Semilight", 13F);
-            this.itemHuongDan.ForeColor = System.Drawing.Color.LightCoral;
+            this.itemHuongDan.ForeColor = System.Drawing.Color.White;
             this.itemHuongDan.Image = global::PresentationLayer.Properties.Resources.icons8_cart_1001;
             this.itemHuongDan.Name = "itemHuongDan";
             this.itemHuongDan.Size = new System.Drawing.Size(329, 42);
@@ -516,9 +517,9 @@
             // 
             // itemGioiThieu
             // 
-            this.itemGioiThieu.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.itemGioiThieu.BackColor = System.Drawing.Color.Blue;
             this.itemGioiThieu.Font = new System.Drawing.Font("Segoe UI Semilight", 13F);
-            this.itemGioiThieu.ForeColor = System.Drawing.Color.LightCoral;
+            this.itemGioiThieu.ForeColor = System.Drawing.Color.White;
             this.itemGioiThieu.Image = global::PresentationLayer.Properties.Resources.OIP_removebg_preview;
             this.itemGioiThieu.Name = "itemGioiThieu";
             this.itemGioiThieu.Size = new System.Drawing.Size(329, 42);

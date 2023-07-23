@@ -431,5 +431,10 @@ namespace PresentationLayer.Forms
         {
             Process.Start("https://github.com/Mezmezkinaseko/ProjectSalesManagementSys/blob/master/README.md");
         }
+
+        private void btnHuongDan_MouseHover(object sender, EventArgs e)
+        {
+            this.menuHuongDan.Show(panelLeft, new Point(212, 580));
+        }
     }
 }
