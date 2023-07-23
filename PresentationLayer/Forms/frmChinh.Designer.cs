@@ -350,7 +350,7 @@
             this.btnThietLap.ForeColor = System.Drawing.Color.White;
             this.btnThietLap.Image = global::PresentationLayer.Properties.Resources.icons8_settings_40px;
             this.btnThietLap.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThietLap.Location = new System.Drawing.Point(4, 766);
+            this.btnThietLap.Location = new System.Drawing.Point(2, 766);
             this.btnThietLap.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnThietLap.Name = "btnThietLap";
             this.btnThietLap.Size = new System.Drawing.Size(319, 92);
@@ -529,7 +529,7 @@
             this.btnHuongdan.ForeColor = System.Drawing.Color.White;
             this.btnHuongdan.Image = global::PresentationLayer.Properties.Resources.icons8_training_50_removebg_preview1;
             this.btnHuongdan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHuongdan.Location = new System.Drawing.Point(1, 862);
+            this.btnHuongdan.Location = new System.Drawing.Point(1, 857);
             this.btnHuongdan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnHuongdan.Name = "btnHuongdan";
             this.btnHuongdan.Size = new System.Drawing.Size(319, 92);
