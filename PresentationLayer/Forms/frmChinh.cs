@@ -142,8 +142,8 @@ namespace PresentationLayer.Forms
 
         private void moveSidePanel(Control btn)
         {
-            panelSide.Top = btn.Top;
-            panelSide.Height = btn.Height;
+            //panelSide.Top = btn.Top;
+           // panelSide.Height = btn.Height;
         }
 
         private void btnTrangChu_Click(object sender, EventArgs e)
@@ -417,10 +417,7 @@ namespace PresentationLayer.Forms
             Cursor = Cursors.Default;
         }
 
-        private void btnHuongDan_Click(object sender, EventArgs e)
-        {
-            this.menuHuongDan.Show(panelLeft, new Point(212, 580));
-        }
+      
 
         private void itemHuongDan_Click(object sender, EventArgs e)
         {
@@ -432,9 +429,20 @@ namespace PresentationLayer.Forms
             Process.Start("https://github.com/Mezmezkinaseko/ProjectSalesManagementSys/blob/master/README.md");
         }
 
-        private void btnHuongDan_MouseHover(object sender, EventArgs e)
+       
+
+    
+
+        private void btnHuongdan_Click(object sender, EventArgs e)
         {
-            this.menuHuongDan.Show(panelLeft, new Point(212, 580));
+            this.menuHuongDan.Show(panelLeft, new Point(212, 560));
+        }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            frmDangNhap frm = new frmDangNhap();
+            frm.Show();
         }
     }
 }
