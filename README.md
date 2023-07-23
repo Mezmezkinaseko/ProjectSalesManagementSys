@@ -8,10 +8,10 @@
       username: 6 
       password: admin
 #### Công nghệ sử dụng trong dự án
-Visual Studio 2022
-.NET Framework 4.8
-SQL Server 2019
-ADO.NET
+      Visual Studio 2022
+      .NET Framework 4.8
+      SQL Server 2019
+      ADO.NET
 #### Hướng dẫn kết nối cơ sở dữ liệu
        Thay đổi connection string trong App.config cho phù hợp
 #### Cách xử lý lỗi khi cài đặt phần mềm
