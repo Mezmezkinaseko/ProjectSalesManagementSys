@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -141,8 +142,8 @@ namespace PresentationLayer.Forms
 
         private void moveSidePanel(Control btn)
         {
-            panelSide.Top = btn.Top;
-            panelSide.Height = btn.Height;
+            //panelSide.Top = btn.Top;
+           // panelSide.Height = btn.Height;
         }
 
         private void btnTrangChu_Click(object sender, EventArgs e)
@@ -414,6 +415,32 @@ namespace PresentationLayer.Forms
                 btnNhapSanPham.FlatAppearance.MouseDownBackColor = Color.White;
             }
             Cursor = Cursors.Default;
+        }
+
+      
+
+        private void itemHuongDan_Click(object sender, EventArgs e)
+        {
+            string relativePath = Path.Combine(Application.StartupPath, "E:\\0.LẬP TRÌNH C#\\0.ĐỒ ÁN C#\\DOANCHINH\\ProjectSalesManagementSys\\PresentationLayer\\Huongdan.txt");
+            Process.Start(relativePath);
+
+        }
+
+        private void itemGioiThieu_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/Mezmezkinaseko/ProjectSalesManagementSys/blob/master/README.md");
+        }
+
+        private void btnHuongdan_Click(object sender, EventArgs e)
+        {
+            this.menuHuongDan.Show(panelLeft, new Point(212, 560));
+        }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            frmDangNhap frm = new frmDangNhap();
+            frm.Show();
         }
     }
 }
