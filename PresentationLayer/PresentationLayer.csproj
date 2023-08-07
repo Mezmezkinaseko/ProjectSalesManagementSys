@@ -772,6 +772,10 @@
     <Content Include="Gioithieu.txt" />
     <Content Include="Huongdan.txt" />
     <Content Include="product.ico" />
+    <None Include="Resources\icons8-user-manual-40 %282%29.png" />
+    <None Include="Resources\icons8-user-manual.png" />
+    <None Include="Resources\icons8-user-manual-40 %281%29.png" />
+    <None Include="Resources\icons8-user-manual-40.png" />
     <None Include="Resources\icons8-training-50-removebg-preview1.png" />
     <None Include="Resources\icons8-training-50-removebg-preview.png" />
     <None Include="Resources\icons8-training-50.png" />
