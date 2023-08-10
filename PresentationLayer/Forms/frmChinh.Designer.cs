@@ -48,6 +48,7 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.button1 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
+            this.btnHuongdan = new System.Windows.Forms.Button();
             this.btnDangXuat = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnNhapSanPham = new System.Windows.Forms.Button();
             this.btnThietLap = new System.Windows.Forms.Button();
@@ -60,7 +61,6 @@
             this.button8 = new System.Windows.Forms.Button();
             this.itemHuongDan = new System.Windows.Forms.ToolStripMenuItem();
             this.itemGioiThieu = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnHuongdan = new System.Windows.Forms.Button();
             this.panelLeft.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -161,12 +161,12 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(64, 77);
+            this.label6.Location = new System.Drawing.Point(40, 77);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(95, 29);
+            this.label6.Size = new System.Drawing.Size(116, 29);
             this.label6.TabIndex = 0;
-            this.label6.Text = "Quyền:";
+            this.label6.Text = "Quyền   :";
             // 
             // labelTime
             // 
@@ -295,6 +295,27 @@
             this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // btnHuongdan
+            // 
+            this.btnHuongdan.AccessibleName = "thietlap";
+            this.btnHuongdan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(133)))), ((int)(((byte)(204)))));
+            this.btnHuongdan.FlatAppearance.BorderSize = 0;
+            this.btnHuongdan.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.btnHuongdan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHuongdan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHuongdan.ForeColor = System.Drawing.Color.White;
+            this.btnHuongdan.Image = global::PresentationLayer.Properties.Resources.icons8_user_manual_40__2_;
+            this.btnHuongdan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHuongdan.Location = new System.Drawing.Point(1, 857);
+            this.btnHuongdan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnHuongdan.Name = "btnHuongdan";
+            this.btnHuongdan.Size = new System.Drawing.Size(319, 92);
+            this.btnHuongdan.TabIndex = 15;
+            this.btnHuongdan.Text = "    Hướng dẫn";
+            this.btnHuongdan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnHuongdan.UseVisualStyleBackColor = false;
+            this.btnHuongdan.Click += new System.EventHandler(this.btnHuongdan_Click);
             // 
             // btnDangXuat
             // 
@@ -517,27 +538,6 @@
             this.itemGioiThieu.Size = new System.Drawing.Size(329, 42);
             this.itemGioiThieu.Text = "Giới thiệu phần mềm";
             this.itemGioiThieu.Click += new System.EventHandler(this.itemGioiThieu_Click);
-            // 
-            // btnHuongdan
-            // 
-            this.btnHuongdan.AccessibleName = "thietlap";
-            this.btnHuongdan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(133)))), ((int)(((byte)(204)))));
-            this.btnHuongdan.FlatAppearance.BorderSize = 0;
-            this.btnHuongdan.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.btnHuongdan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHuongdan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHuongdan.ForeColor = System.Drawing.Color.White;
-            this.btnHuongdan.Image = global::PresentationLayer.Properties.Resources.icons8_training_50_removebg_preview1;
-            this.btnHuongdan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHuongdan.Location = new System.Drawing.Point(1, 857);
-            this.btnHuongdan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnHuongdan.Name = "btnHuongdan";
-            this.btnHuongdan.Size = new System.Drawing.Size(319, 92);
-            this.btnHuongdan.TabIndex = 15;
-            this.btnHuongdan.Text = "    Hướng dẫn";
-            this.btnHuongdan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnHuongdan.UseVisualStyleBackColor = false;
-            this.btnHuongdan.Click += new System.EventHandler(this.btnHuongdan_Click);
             // 
             // frmChinh
             // 
