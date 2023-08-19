@@ -955,7 +955,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>CỬA HÀNG ĐỒ CHƠI</Value>
+                  <Value>THẾ GIỚI DI ĐỘNG</Value>
                   <Style>
                     <FontSize>12pt</FontSize>
                     <FontWeight>Normal</FontWeight>
@@ -1153,7 +1153,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DataSet1</rd:DataSetName>
-        <rd:SchemaPath>E:\Đồ Án 1\QuanLyCuaHangBanDoChoi - Final - Copy\QuanLyCuaHangBanDoChoi\Report\DataSet1.xsd</rd:SchemaPath>
+        <rd:SchemaPath>E:\0.LẬP TRÌNH C#\0.ĐỒ ÁN C#\DOANCHINH\ProjectSalesManagementSys\PresentationLayer\Report\ReportHoaDon.rdlc</rd:SchemaPath>
         <rd:TableName>DataTable_HoaDon</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />
