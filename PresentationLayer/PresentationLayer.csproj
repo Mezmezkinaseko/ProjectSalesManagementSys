@@ -180,12 +180,6 @@
     <Compile Include="Forms\frmLoaiSanPham.Designer.cs">
       <DependentUpon>frmLoaiSanPham.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\frmLogin.Designer.cs">
-      <DependentUpon>frmLogin.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\frmNCC.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -309,9 +303,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmLoaiSanPham.resx">
       <DependentUpon>frmLoaiSanPham.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmLogin.resx">
-      <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmNCC.resx">
       <DependentUpon>frmNCC.cs</DependentUpon>
