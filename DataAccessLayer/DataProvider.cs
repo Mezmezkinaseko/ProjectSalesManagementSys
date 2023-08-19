@@ -16,6 +16,7 @@ namespace DataAccessLayer
             string sChuoiKetNoi = @"Data Source=DESKTOP-K7RF00F;Initial Catalog=DBTGDD;Integrated Security=True";
             SqlConnection con = new SqlConnection(sChuoiKetNoi);
             con.Open();
+
             return con;
         }
         public static void Disconnect(SqlConnection con)
