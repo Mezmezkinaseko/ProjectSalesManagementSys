@@ -319,9 +319,7 @@
     <EmbeddedResource Include="Forms\frmThongBao.resx">
       <DependentUpon>frmThongBao.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Report\ReportHoaDon.rdlc">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ReportHoaDon.rdlc" />
     <EmbeddedResource Include="UserControls\ucBanSanPham.resx">
       <DependentUpon>ucBanSanPham.cs</DependentUpon>
     </EmbeddedResource>
