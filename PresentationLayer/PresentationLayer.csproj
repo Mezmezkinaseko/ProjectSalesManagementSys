@@ -761,7 +761,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Gioithieu.txt" />
-    <Content Include="Huongdan.txt" />
+    <Content Include="Huongdan.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="product.ico" />
     <None Include="Resources\icons8-user-manual-40 %282%29.png" />
     <None Include="Resources\icons8-user-manual.png" />
