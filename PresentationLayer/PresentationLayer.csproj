@@ -357,6 +357,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Content Include="HuongdanCaiDatvaSuDung.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -761,7 +764,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Gioithieu.txt" />
-    <Content Include="Huongdan.txt" />
+    <Content Include="Huongdan.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="product.ico" />
     <None Include="Resources\icons8-user-manual-40 %282%29.png" />
     <None Include="Resources\icons8-user-manual.png" />

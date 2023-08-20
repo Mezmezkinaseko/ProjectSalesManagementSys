@@ -421,8 +421,7 @@ namespace PresentationLayer.Forms
 
         private void itemHuongDan_Click(object sender, EventArgs e)
         {
-            string relativePath = Path.Combine(Application.StartupPath, "E:\\0.LẬP TRÌNH C#\\0.ĐỒ ÁN C#\\DOANCHINH\\ProjectSalesManagementSys\\PresentationLayer\\Huongdan.txt");
-            Process.Start(relativePath);
+            Process.Start("HuongdanCaiDatvaSuDung.docx");
 
         }
 
