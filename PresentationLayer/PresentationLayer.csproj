@@ -36,17 +36,8 @@
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="advancedTextbox">
-      <HintPath>C:\Users\Khuongpro\Desktop\advancedTextbox.dll</HintPath>
-    </Reference>
-    <Reference Include="ChreneLib">
-      <HintPath>C:\Users\Khuongpro\Desktop\ChreneLib.dll</HintPath>
-    </Reference>
     <Reference Include="ColorProgressBar">
       <HintPath>C:\Users\Khuongpro\Desktop\ColorProgressBar.dll</HintPath>
-    </Reference>
-    <Reference Include="FastColoredTextBox">
-      <HintPath>C:\Users\Khuongpro\Desktop\FastColoredTextBox.dll</HintPath>
     </Reference>
     <Reference Include="Goblinfactory.ProgressBar, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Goblinfactory.ProgressBar.0.4.0\lib\netstandard2.0\Goblinfactory.ProgressBar.dll</HintPath>
@@ -774,6 +765,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\OIP %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Gioithieu.txt" />
+    <Content Include="Huongdan.txt" />
+    <Content Include="product.ico" />
+    <None Include="Resources\icons8-user-manual-40 %282%29.png" />
+    <None Include="Resources\icons8-user-manual.png" />
+    <None Include="Resources\icons8-user-manual-40 %281%29.png" />
+    <None Include="Resources\icons8-user-manual-40.png" />
+    <None Include="Resources\icons8-training-50-removebg-preview1.png" />
+    <None Include="Resources\icons8-training-50-removebg-preview.png" />
+    <None Include="Resources\icons8-training-50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

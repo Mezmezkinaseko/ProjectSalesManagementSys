@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace DataAccessLayer
 {
@@ -16,6 +10,7 @@ namespace DataAccessLayer
             string sChuoiKetNoi = @"Data Source=MSI\SQLEXPRESS01;Initial Catalog=DBTGDD;Integrated Security=True";
             SqlConnection con = new SqlConnection(sChuoiKetNoi);
             con.Open();
+
             return con;
         }
         public static void Disconnect(SqlConnection con)
