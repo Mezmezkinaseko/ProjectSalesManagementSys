@@ -421,7 +421,7 @@ namespace PresentationLayer.Forms
 
         private void itemHuongDan_Click(object sender, EventArgs e)
         {
-            Process.Start("Huongdan.txt");
+            Process.Start("HuongdanCaiDatvaSuDung.docx");
 
         }
 
