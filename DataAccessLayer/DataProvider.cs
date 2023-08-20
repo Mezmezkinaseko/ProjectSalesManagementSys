@@ -13,7 +13,7 @@ namespace DataAccessLayer
     {
         public static SqlConnection Openconnect()
         {
-            string sChuoiKetNoi = @"Data Source=DESKTOP-K7RF00F;Initial Catalog=DBTGDD;Integrated Security=True";
+            string sChuoiKetNoi = @"Data Source=MSI\SQLEXPRESS01;Initial Catalog=DBTGDD;Integrated Security=True";
             SqlConnection con = new SqlConnection(sChuoiKetNoi);
             con.Open();
             return con;

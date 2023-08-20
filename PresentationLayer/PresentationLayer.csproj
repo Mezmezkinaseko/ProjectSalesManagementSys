@@ -156,6 +156,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ComboBoxItem.cs" />
+    <Compile Include="DBTGDDDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBTGDDDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Forms\frmChonNCC.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,12 +184,6 @@
     </Compile>
     <Compile Include="Forms\frmLoaiSanPham.Designer.cs">
       <DependentUpon>frmLoaiSanPham.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\frmLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\frmLogin.Designer.cs">
-      <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\frmNCC.cs">
       <SubType>Form</SubType>
@@ -310,9 +309,6 @@
     <EmbeddedResource Include="Forms\frmLoaiSanPham.resx">
       <DependentUpon>frmLoaiSanPham.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmLogin.resx">
-      <DependentUpon>frmLogin.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmNCC.resx">
       <DependentUpon>frmNCC.cs</DependentUpon>
     </EmbeddedResource>
@@ -366,6 +362,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="DBTGDDDataSet.xsc">
+      <DependentUpon>DBTGDDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBTGDDDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBTGDDDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBTGDDDataSet.xss">
+      <DependentUpon>DBTGDDDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

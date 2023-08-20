@@ -5,6 +5,8 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
+using System.Drawing;
+using System.IO;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -25,6 +27,7 @@ namespace DataAccessLayer
             }
         }
         private NhanVienDL() { }
+
 
         #region Thêm Nhân Viên
         public bool ThemNhanVien(NhanVienDTO nvDTO)
@@ -116,7 +119,7 @@ namespace DataAccessLayer
             try
             {
                 DataTable dt = new DataTable();
-                string sql = "SELECT MANV as N'Mã NV',HOTEN as N'Tên NV',MALOAI as N'Mã Loại NV',SDT as N'SĐT',NGAYSINH as N'Ngày Sinh',Email as N'Email',HINHANH as N'Hình Ảnh' , CASE GIOITINH WHEN 0 THEN N'Nữ' WHEN 1 THEN N'Nam' END AS N'Giới Tính' FROM NHANVIEN WHERE MaNV="+MaNV;
+                string sql = "SELECT MANV as N'Mã NV',HOTEN as N'Tên NV',MALOAI as N'Mã Loại NV',SDT as N'SĐT',NGAYSINH as N'Ngày Sinh',Email as N'Email',HINHANH as N'Hình Ảnh' , CASE GIOITINH WHEN 0 THEN N'Nữ' WHEN 1 THEN N'Nam' END AS N'Giới Tính' FROM NHANVIEN WHERE MaNV=" + MaNV;
                 dt = new DataTable();
                 dt = DataProvider.GetTable(sql);
                 return dt;
@@ -127,6 +130,7 @@ namespace DataAccessLayer
                 return null;
             }
         }
+
         #endregion
 
         #region Lấy Hình Ảnh Nhân Viên
@@ -145,6 +149,8 @@ namespace DataAccessLayer
                 return null;
             }
         }
+
+
         #endregion
 
         #region Lấy Mã Nhân Viên Max

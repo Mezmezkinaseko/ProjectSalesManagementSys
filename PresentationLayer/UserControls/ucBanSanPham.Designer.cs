@@ -77,7 +77,7 @@
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.panel3 = new System.Windows.Forms.Panel();
             this.picThanhCong = new System.Windows.Forms.PictureBox();
-            this.txtSDT = new ChreneLib.Controls.TextBoxes.CTextBox();
+            this.txtSDT = new System.Windows.Forms.TextBox();
             this.txtTenKH = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -660,10 +660,6 @@
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(231, 29);
             this.txtSDT.TabIndex = 60;
-            this.txtSDT.WaterMark = "Nhập vào số điện thoại";
-            this.txtSDT.WaterMarkActiveForeColor = System.Drawing.Color.Silver;
-            this.txtSDT.WaterMarkFont = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtSDT.WaterMarkForeColor = System.Drawing.Color.Silver;
             this.txtSDT.TextChanged += new System.EventHandler(this.txtTenDangNhap_TextChanged);
             // 
             // txtTenKH
@@ -910,7 +906,7 @@
         private System.Windows.Forms.TextBox txtTenKH;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label10;
-        private ChreneLib.Controls.TextBoxes.CTextBox txtSDT;
+        private System.Windows.Forms.TextBox txtSDT;
         private System.Windows.Forms.DataGridView dgvCTHD;
         private System.Windows.Forms.Label lblTongTien;
         private System.Windows.Forms.Label label5;

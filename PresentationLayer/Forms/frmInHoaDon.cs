@@ -35,11 +35,18 @@ namespace PresentationLayer.Forms
         private void btnIn_Click(object sender, EventArgs e)
         {
             DataSet ds = HoaDonBL.GetInstance.InHoaDon(ucBanSanPham.SOHD_Report);
-            ReportDataSource dataSource = new ReportDataSource("DataSet_Report", ds.Tables[0]);
 
-            this.reportViewer1.LocalReport.DataSources.Clear();
-            this.reportViewer1.LocalReport.DataSources.Add(dataSource);
-            this.reportViewer1.RefreshReport();
+            if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+            {
+                ReportDataSource dataSource = new ReportDataSource("DataSet_Report", ds.Tables[0]);
+                this.reportViewer1.LocalReport.DataSources.Clear();
+                this.reportViewer1.LocalReport.DataSources.Add(dataSource);
+                this.reportViewer1.RefreshReport();
+            }
+            else
+            {
+                MessageBox.Show("Không có dữ liệu để hiển thị trong báo cáo.");
+            }
 
         }
     }

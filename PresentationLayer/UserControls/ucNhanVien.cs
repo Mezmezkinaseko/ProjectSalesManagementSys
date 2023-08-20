@@ -21,6 +21,10 @@ namespace PresentationLayer.UserControls
             InitializeComponent();
         }
 
+        private Image ResizeImage(Image originalImage, int newWidth, int newHeight)
+        {
+            return new Bitmap(originalImage, newWidth, newHeight);
+        }
         private void ucNhanVien_Load(object sender, EventArgs e)
         {
             if (frmDangNhap.Quyen == 1)
@@ -32,7 +36,7 @@ namespace PresentationLayer.UserControls
             }
             else
             {
-                dgvNhanVien.DataSource = NhanVienBL.GetInstance.GetDanhSachNhanVienTheoMa(frmDangNhap.TenDangNhap);
+                DataTable dt = NhanVienBL.GetInstance.GetDanhSachNhanVienTheoMa(frmDangNhap.TenDangNhap);
                 panelBoLoc.Enabled = false;
                 btnSaThai.Enabled = false;
                 btnThem.Enabled = false;
@@ -42,6 +46,19 @@ namespace PresentationLayer.UserControls
                 txtTen.Enabled = false;
                 cboGioiTinh.Enabled = false;
                 dateNgaySinh.Enabled = false;
+
+                int newWidth = 10;    // Chiều rộng mới (cố định)
+                int newHeight = 10;   // Chiều cao mới (cố định)
+
+                foreach (DataRow row in dt.Rows)
+                {
+                    byte[] imageData = (byte[])row["Hình Ảnh"];
+                    Image originalImage = Image.FromStream(new MemoryStream(imageData));
+                    Image resizedImage = ResizeImage(originalImage, newWidth, newHeight);
+                    row["Hình Ảnh"] = resizedImage;
+                }
+
+                dgvNhanVien.DataSource = dt;
             }
         }
 
