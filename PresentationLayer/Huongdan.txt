@@ -14,4 +14,3 @@ username: 6,
 password: admin
 
 
-Xử lý lỗi về GUNA UI:cài đặt lại package Guna.UI2.WinForms & Guna.Charts.WinForms trong project
